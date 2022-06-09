@@ -21,7 +21,7 @@ public class CurrencyConvert {
 
 
 
-    private static final String API_PROVIDER = "http://api.fixer.io";
+    private static final String API_PROVIDER = "https://v6.exchangerate-api.com/v6/8aabab19656e7a7bca866921";
     private HandleCache handleCache = new HandleCache();
     public  double convert(String fromCurrencyCode, String toCurrencyCode) {
 
